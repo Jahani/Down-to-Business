@@ -1,0 +1,92 @@
+/*** hover and toggle ***/
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+/*** navbar style ***/
+
+nav#navbar {
+    padding-top: 10px;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.page-title {
+    font-size: 30px;
+}
+
+.social li span, span.fa-search {
+    color: #269abc;
+}
+span.fa-search {
+    margin-right: 10px;
+}
+
+#search-go {
+    background-color: #269abc;
+}
+
+#search-text {
+    border: 2px solid #eeeeee;
+}
+
+/*** menu styling ***/
+
+nav#menu {
+    border-radius: 0;
+}
+
+nav#menu, nav#menu ul.dropdown-menu {
+    background-color: #269abc;
+}
+
+nav#menu li:hover {
+    background-color: #285e8e;
+}
+
+nav#menu ul li.active {
+    font-weight: bold;
+}
+
+nav#menu li a{
+    color: #ffffff;
+}
+
+/*** BG style ***/
+
+nav#menu {
+    margin-bottom: 0;
+}
+.mountain {
+    background: url('../images/heroBg.jpg') no-repeat #269abc;
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+
+/***/
+
+.grayback {
+    background-color: #adadad;
+}
+
+.blog-posts .thumbnail {
+    background-color: inherit;
+    border: none;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
